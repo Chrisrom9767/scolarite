@@ -36,6 +36,20 @@
             android:background="#FFFFFF"
             android:elevation="4dp"
             android:padding="16dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Matricule"
+                android:textSize="20sp"
+                android:textColor="#333333"
+                android:layout_marginTop="16dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/mattxt"
+                android:layout_marginTop="8dp"
+                android:backgroundTint="#3498DB"/>
 
             <TextView
                 android:layout_width="match_parent"
@@ -92,7 +106,7 @@
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/teltext"
+                android:id="@+id/teltxt"
                 android:layout_marginTop="8dp"
                 android:backgroundTint="#3498DB"/>
             <TextView
@@ -106,7 +120,7 @@
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/fraistext"
+                android:id="@+id/frtext"
                 android:layout_marginTop="8dp"
                 android:backgroundTint="#3498DB"/>
             <Button
